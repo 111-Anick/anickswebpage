@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: auto;
+    height: auto;
+}
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.header h3{
+    color: gray;
+    font-size: 50px;
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+.header h5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+}
+.header h5 a:hover{
+    color:chartreuse;
+}
